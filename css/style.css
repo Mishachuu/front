@@ -44,10 +44,12 @@ footer{
 .fact-list{
     border:solid;
     border-radius: 10px;
+    
 }
 .fact-item{
     padding:10px;
     margin:10px;
+    
 }
 .bio-content{
     width: 400px;
@@ -61,7 +63,7 @@ footer{
     justify-content: center;
     align-content: center;
     text-align: center;
-    gap: 20px;
+    gap:100px;
 }
 .bio-img{
     border: solid;
@@ -76,6 +78,7 @@ footer{
     height: 240px;
     padding:10px;
     margin:20px;
+    margin-left:130px ;
 }
 .music{
     border:solid;
@@ -85,8 +88,10 @@ footer{
     height: 240px;
     padding:10px;
     margin:20px;
+    margin-left: 0px ;
 }
 .my-info{
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 100px;
 }
