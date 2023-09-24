@@ -1,0 +1,39 @@
+header{
+    text-align: center;
+}
+body{
+    background-color:azure;
+}
+h1{
+
+}
+h2{
+    text-decoration: underline;
+    padding:10px;
+}
+li{
+    list-style: none;
+}
+p{
+    padding:10px;
+    margin:10px;
+}
+.link-list {
+    display:flex;
+    justify-content: space-between;
+}
+.animal-image-list{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.bio-content{
+    display:grid;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 400px;  
+}
+.fact-item{
+    padding:10px;
+    margin:10px;
+}
