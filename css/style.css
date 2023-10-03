@@ -10,6 +10,7 @@ body{
 h2{
     text-decoration: underline;
     padding:10px;
+    color:rgb(175, 73, 73)
 }
 ul{
     list-style: none;
@@ -59,11 +60,26 @@ footer{
 }
 
 .bio-box{
-    display:flex;
-    justify-content: center;
+/*    display:flex;
+    
     align-content: center;
     text-align: center;
-    gap:100px;
+    gap:100px;*/
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: burlywood;
+}
+.bio-content-left{
+    background-color:blueviolet;
+    align-self: flex-start;
+    margin: 0;
+    order:2;
+}
+.bio-content-right{
+    background-color: aqua;
+    width: 30%;
+    align-self: flex-end;
 }
 .bio-img{
     border: solid;
