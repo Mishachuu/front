@@ -68,23 +68,28 @@ footer{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color: burlywood;
+   
 }
 .bio-content-left{
-    background-color:blueviolet;
+    border-color: rgba(49, 11, 99, 0.384);
+    border-radius: 10px;
     align-self: flex-start;
     margin: 0;
     order:2;
 }
 .bio-content-right{
-    background-color: aqua;
+    background-color: rgba(168, 105, 173, 0.384);
+    border-radius: 10px;
+    border: solid;
     width: 30%;
     align-self: flex-end;
+    
 }
 .bio-img{
     border: solid;
     border-color: rgba(0, 0, 0, 0.384);
-    box-shadow: 5px 5px rgba(235, 123, 220, 0.5);
+    /*box-shadow: 5px 5px rgba(235, 123, 220, 0.5);*/
+    
 }
 .movies{
     border:solid;
