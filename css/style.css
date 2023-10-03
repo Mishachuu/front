@@ -68,7 +68,7 @@ footer{
     display:flex;
     justify-content: space-between;
     align-items: center;
-   
+    padding-top: 4%;
 }
 .bio-content-left{
     border-color: rgba(49, 11, 99, 0.384);
@@ -115,4 +115,80 @@ footer{
     display:flex;
     justify-content: center;
     gap: 100px;
+}
+.header{
+position: absolute;
+right: 0;
+background-color: aliceblue;
+padding: 10px;
+}
+.block{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cats{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.block-2{
+    width:200px;
+    height:200px;
+    background-color: rgb(24, 73, 233);
+    position: relative;
+    top:50%;
+    left:50%;
+}
+.container-3{
+    background-color: burlywood;
+    border: solid;
+    display: flex;
+    flex:wrap;
+    align-content: space-between;
+
+}
+.block-3{
+    width:200px;
+    height:200px;
+    background-color: blue;
+}
+.container-4{
+    background-color: bisque;
+    border: solid;
+    width:600px;
+    height:600px;
+}
+.block-red{
+    border:solid ;
+    border-color: red ;
+    width:200px;
+    height:200px;
+    position: relative;
+    left:50px;
+    top:50px;
+}
+.block-green{
+    border:solid ;
+    border-color: green ;
+    position: relative;
+    width:200px;
+    height:200px;
+    right:-350px;
+    bottom:50px;
+}
+.block-blue{
+    border:solid ;
+    border-color: blue ;
+    width:200px;
+    height:200px;    
+    position: relative;
+    left:200px
+}
+.photo-cat{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
 }
