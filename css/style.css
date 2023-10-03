@@ -73,16 +73,16 @@ footer{
 .bio-content-left{
     border-color: rgba(49, 11, 99, 0.384);
     border-radius: 10px;
-    align-self: flex-start;
+    
     margin: 0;
-    order:2;
+    
 }
 .bio-content-right{
     background-color: rgba(168, 105, 173, 0.384);
     border-radius: 10px;
     border: solid;
     width: 30%;
-    align-self: flex-end;
+    
     
 }
 .bio-img{
