@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Информация</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+<header>    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Лабораторная 6-7</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="info.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="films.html">list of films</a>
+            </li>
+        </ul>
+    </div>
+</nav></header>
+
+<div class="row">
+  <div class="col-2">
+    <div id="list-example" class="list-group sticky-top">
+      <a class="list-group-item list-group-item-action" href="#carouselExampleIndicators">Карусель</a>
+      <a class="list-group-item list-group-item-action" href="#films">Фильмы</a>
+      <a class="list-group-item list-group-item-action" href="#accordion">Краткая информация</a>
+    </div>
+  </div>
+</div>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="image\1.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="image\2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="image\3.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Предыдущая</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Следующая</span>
+  </a>
+</div>
+
+<div class="card-group" id="films">
+  <div class="card">
+    <img class="card-img-top" src="image\card1.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">В ожидании варваров</h5>
+      <p class="card-text">Глава колониального города противостоит империалистам. По книге и сценарию нобелевского лауреата Дж. М. Кутзее</p>
+      <a href="https://www.kinopoisk.ru/film/1164484/?utm_referrer=www.google.com" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="image\card2.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Пираты Карибского моря: Проклятие Черной жемчужины</h5>
+      <p class="card-text">Жизнь харизматичного авантюриста, капитана Джека Воробья, полная увлекательных приключений, резко меняется, когда его заклятый враг капитан Барбосса похищает корабль Джека Черную Жемчужину, а затем нападает на Порт Ройал и крадет прекрасную дочь губернатора Элизабет Свонн.</p>
+      <a href="https://www.kinopoisk.ru/film/4374/" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="image\card3.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Жанна Дюбарри</h5>
+      <p class="card-text">Жанна Вобернье, женщина из низшего сословия, выбивается из нищеты при помощи женских чар. Ее покровитель, граф Дюбарри, разбогатевший благодаря любовным интригам Жанны, желает представить ее королю и организует свидание через влиятельного герцога де Ришелье. Встреча выходит далеко за рамки его ожиданий — Жанна влюбляет в себя Людовика XV с первого взгляда своей непосредственностью.</p>
+      <a href="https://www.kinopoisk.ru/film/4833824/" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</div>
+
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          где родился
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        Джон Кристофер Депп II родился 9 июня 1963 года в Оуэнсборо, штат Кентукки, младшим из четырёх детей официантки Бетти Сью Палмер (урождённой Уэллс) и инженера-строителя Джона Кристофера Деппа. В детстве семья Деппа часто переезжала, в итоге поселилась в Мирамаре, штат Флорида, в 1970 году.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          где учился
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        Мать Деппа подарила ему гитару, когда ему было 12 лет, и он начал играть в различных группах[13]. В 1979 году в возрасте 16 лет он бросил среднюю школу Мирамар, чтобы стать рок-музыкантом. Через две недели он попытался вернуться в школу, но директор сказал ему следовать своей мечте стать музыкантом. 
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          личная жизнь
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        За свои 60 лет Джонни Депп женился только два раза — и оба брака продлились недолго. Один союз помог старту его актерской карьеры, а другой принес суды и разорение. В 1990-х актер делал предложение руки и сердца четыре раза, а с матерью своих детей Ванессой Паради так и не решился пойти под венец. 
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
